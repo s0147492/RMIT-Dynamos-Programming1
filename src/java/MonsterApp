@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class MonsterApp {
+
+    public static void main(String[] args) {
+        Random random = new Random();
+        Monster1 monster1 = new Monster1(random);
+        System.out.println("Created new Monster:\n" + monster1);
+    }
+
+
+}
